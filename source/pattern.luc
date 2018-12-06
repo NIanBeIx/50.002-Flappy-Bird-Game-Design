@@ -1,0 +1,58 @@
+module pattern (
+    input clk,  // clock
+    input rst,  // reset
+    input clk2,
+    input rst2,
+    input button,
+    output out,
+    output outred[8][8],
+    output outblue[8][8],
+    output outgreen[8][8]
+  ) {
+  
+  birdPosition b;
+  pillarShift p;
+
+  always {
+  
+    b.btn=button;
+    b.clk=clk2;
+    b.rst=rst2;
+    
+    p.clk=clk2;
+    p.rst=rst2;
+    p.btn=button;
+    
+    
+    out = 0;
+    outred = {
+      b00000000,
+      b00000000,
+      b.outPosition,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000};
+      
+    outblue = {
+      p.out0,
+      p.out1,
+      p.out2,
+      p.out3,
+      p.out4,
+      p.out5,
+      p.out6,
+      p.out7};
+      
+    outgreen = {
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000};
+}}
+

@@ -1,0 +1,1430 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: mojo_top_0.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mojo_top_0.prj"
+
+---- Target Parameters
+Target Device                      : xc6slx9tqg144-2
+Output File Name                   : "mojo_top_0.ngc"
+
+---- Source Options
+Top Module Name                    : mojo_top_0
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+Netlist Hierarchy                  : rebuilt
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxright_22.v" into library work
+Parsing module <muxright_22>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxrightsign_23.v" into library work
+Parsing module <muxrightsign_23>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxleft_21.v" into library work
+Parsing module <muxleft_21>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/addition_20.v" into library work
+Parsing module <addition_20>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/shift_16.v" into library work
+Parsing module <shift_16>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/compare_15.v" into library work
+Parsing module <compare_15>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/boolean_14.v" into library work
+Parsing module <boolean_14>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/adder_13.v" into library work
+Parsing module <adder_13>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/alu_3.v" into library work
+Parsing module <alu_3>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pillarShift_18.v" into library work
+Parsing module <pillarShift_18>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/counter_11.v" into library work
+Parsing module <counter_11>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" into library work
+Parsing module <birdPosition_17>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/reset_conditioner_5.v" into library work
+Parsing module <reset_conditioner_5>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" into library work
+Parsing module <pattern_9>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" into library work
+Parsing module <patternScreenSecond_10>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/edge_detector_6.v" into library work
+Parsing module <edge_detector_6>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/display_1.v" into library work
+Parsing module <display_1>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/counter_7.v" into library work
+Parsing module <counter_7>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" into library work
+Parsing module <checkOut_4>.
+Analyzing Verilog file "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" into library work
+Parsing module <mojo_top_0>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mojo_top_0>.
+
+Elaborating module <display_1>.
+
+Elaborating module <counter_11>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 62: Assignment to M_displayb_c_red ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 64: Assignment to M_displayb_c_green ignored, since the identifier is never used
+
+Elaborating module <alu_3>.
+
+Elaborating module <adder_13>.
+
+Elaborating module <addition_20>.
+
+Elaborating module <boolean_14>.
+
+Elaborating module <compare_15>.
+
+Elaborating module <shift_16>.
+
+Elaborating module <muxleft_21>.
+
+Elaborating module <muxright_22>.
+
+Elaborating module <muxrightsign_23>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/alu_3.v" Line 77: Assignment to voverflow ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 77: Assignment to M_alu_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 78: Assignment to M_alu_overflow ignored, since the identifier is never used
+
+Elaborating module <checkOut_4>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" Line 29: Assignment to M_alu_overflow ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" Line 40: Result of 17-bit expression is truncated to fit in 6-bit target.
+
+Elaborating module <reset_conditioner_5>.
+
+Elaborating module <edge_detector_6>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 106: Assignment to M_edge_detector_out ignored, since the identifier is never used
+
+Elaborating module <counter_7>.
+
+Elaborating module <pattern_9>.
+
+Elaborating module <birdPosition_17>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 26: Assignment to M_alu_overflow ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 38: Result of 17-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 39: Result of 16-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 41: Result of 17-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 42: Result of 16-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <pillarShift_18>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 63: Assignment to M_p_out8 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 64: Assignment to M_p_out9 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 65: Assignment to M_p_out10 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 66: Assignment to M_p_out11 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 67: Assignment to M_p_out12 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 68: Assignment to M_p_out13 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 69: Assignment to M_p_out14 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 70: Assignment to M_p_out15 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 140: Assignment to M_displayedPattern_out ignored, since the identifier is never used
+
+Elaborating module <patternScreenSecond_10>.
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 44: Assignment to M_p_out0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 45: Assignment to M_p_out1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 46: Assignment to M_p_out2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 47: Assignment to M_p_out3 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 48: Assignment to M_p_out4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 49: Assignment to M_p_out5 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 50: Assignment to M_p_out6 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 51: Assignment to M_p_out7 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 157: Assignment to M_displayedPatternSecond_out ignored, since the identifier is never used
+WARNING:Xst:2972 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 73. All outputs of instance <alu> of block <alu_3> are unconnected in block <mojo_top_0>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 103. All outputs of instance <edge_detector> of block <edge_detector_6> are unconnected in block <mojo_top_0>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 113. All outputs of instance <ctr> of block <counter_7> are unconnected in block <mojo_top_0>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mojo_top_0>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v".
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 56: Output port <c_red> of the instance <displayb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 56: Output port <c_green> of the instance <displayb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 73: Output port <out> of the instance <alu> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 73: Output port <overflow> of the instance <alu> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 103: Output port <out> of the instance <edge_detector> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 134: Output port <out> of the instance <displayedPattern> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" line 151: Output port <out> of the instance <displayedPatternSecond> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <M_second_clk_q>.
+    Found 32-bit register for signal <M_halfSecond_q>.
+    Found 1-bit register for signal <M_playingmode_q>.
+    Found 32-bit adder for signal <M_halfSecond_q[31]_GND_1_o_add_12_OUT> created at line 240.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <mojo_top_0> synthesized.
+
+Synthesizing Unit <display_1>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/display_1.v".
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_4_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_10_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_16_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_22_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_28_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_34_OUT> created at line 42.
+    Found 6-bit adder for signal <M_counter_r_value[2]_GND_2_o_add_40_OUT> created at line 42.
+    Found 127-bit shifter logical right for signal <n0061> created at line 42
+    Found 127-bit shifter logical right for signal <n0062> created at line 43
+    Found 127-bit shifter logical right for signal <n0063> created at line 44
+    Found 127-bit shifter logical right for signal <n0065> created at line 42
+    Found 127-bit shifter logical right for signal <n0066> created at line 43
+    Found 127-bit shifter logical right for signal <n0067> created at line 44
+    Found 127-bit shifter logical right for signal <n0069> created at line 42
+    Found 127-bit shifter logical right for signal <n0070> created at line 43
+    Found 127-bit shifter logical right for signal <n0071> created at line 44
+    Found 127-bit shifter logical right for signal <n0073> created at line 42
+    Found 127-bit shifter logical right for signal <n0074> created at line 43
+    Found 127-bit shifter logical right for signal <n0075> created at line 44
+    Found 127-bit shifter logical right for signal <n0077> created at line 42
+    Found 127-bit shifter logical right for signal <n0078> created at line 43
+    Found 127-bit shifter logical right for signal <n0079> created at line 44
+    Found 127-bit shifter logical right for signal <n0081> created at line 42
+    Found 127-bit shifter logical right for signal <n0082> created at line 43
+    Found 127-bit shifter logical right for signal <n0083> created at line 44
+    Found 127-bit shifter logical right for signal <n0085> created at line 42
+    Found 127-bit shifter logical right for signal <n0086> created at line 43
+    Found 127-bit shifter logical right for signal <n0087> created at line 44
+    Found 127-bit shifter logical right for signal <n0089> created at line 42
+    Found 127-bit shifter logical right for signal <n0090> created at line 43
+    Found 127-bit shifter logical right for signal <n0091> created at line 44
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred  24 Combinational logic shifter(s).
+Unit <display_1> synthesized.
+
+Synthesizing Unit <counter_11>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/counter_11.v".
+    Found 19-bit register for signal <M_ctr_q>.
+    Found 19-bit adder for signal <M_ctr_q[18]_GND_3_o_add_0_OUT> created at line 35.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+Unit <counter_11> synthesized.
+
+Synthesizing Unit <alu_3>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/alu_3.v".
+    Found 16-bit 4-to-1 multiplexer for signal <out> created at line 98.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <alu_3> synthesized.
+
+Synthesizing Unit <adder_13>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/adder_13.v".
+    Found 16-bit subtractor for signal <a[15]_a[15]_sub_6_OUT> created at line 67.
+    Found 16-bit subtractor for signal <x> created at line 73.
+    Found 16-bit adder for signal <a[15]_b[15]_add_6_OUT> created at line 70.
+    Found 16x16-bit multiplier for signal <n0031> created at line 61.
+    Found 16x16-bit multiplier for signal <n0033> created at line 67.
+    Found 16-bit 6-to-1 multiplexer for signal <out> created at line 46.
+    Summary:
+	inferred   2 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   6 Multiplexer(s).
+Unit <adder_13> synthesized.
+
+Synthesizing Unit <addition_20>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/addition_20.v".
+    Summary:
+Unit <addition_20> synthesized.
+
+Synthesizing Unit <div_16u_16u>.
+    Related source file is "".
+    Found 32-bit adder for signal <n0956> created at line 0.
+    Found 32-bit adder for signal <GND_8_o_b[15]_add_1_OUT> created at line 0.
+    Found 31-bit adder for signal <n0960> created at line 0.
+    Found 31-bit adder for signal <GND_8_o_b[15]_add_3_OUT> created at line 0.
+    Found 30-bit adder for signal <n0964> created at line 0.
+    Found 30-bit adder for signal <GND_8_o_b[15]_add_5_OUT> created at line 0.
+    Found 29-bit adder for signal <n0968> created at line 0.
+    Found 29-bit adder for signal <GND_8_o_b[15]_add_7_OUT> created at line 0.
+    Found 28-bit adder for signal <n0972> created at line 0.
+    Found 28-bit adder for signal <GND_8_o_b[15]_add_9_OUT> created at line 0.
+    Found 27-bit adder for signal <n0976> created at line 0.
+    Found 27-bit adder for signal <GND_8_o_b[15]_add_11_OUT> created at line 0.
+    Found 26-bit adder for signal <n0980> created at line 0.
+    Found 26-bit adder for signal <GND_8_o_b[15]_add_13_OUT> created at line 0.
+    Found 25-bit adder for signal <n0984> created at line 0.
+    Found 25-bit adder for signal <GND_8_o_b[15]_add_15_OUT> created at line 0.
+    Found 24-bit adder for signal <n0988> created at line 0.
+    Found 24-bit adder for signal <GND_8_o_b[15]_add_17_OUT> created at line 0.
+    Found 23-bit adder for signal <n0992> created at line 0.
+    Found 23-bit adder for signal <GND_8_o_b[15]_add_19_OUT> created at line 0.
+    Found 22-bit adder for signal <n0996> created at line 0.
+    Found 22-bit adder for signal <GND_8_o_b[15]_add_21_OUT> created at line 0.
+    Found 21-bit adder for signal <n1000> created at line 0.
+    Found 21-bit adder for signal <GND_8_o_b[15]_add_23_OUT> created at line 0.
+    Found 20-bit adder for signal <n1004> created at line 0.
+    Found 20-bit adder for signal <GND_8_o_b[15]_add_25_OUT> created at line 0.
+    Found 19-bit adder for signal <n1008> created at line 0.
+    Found 19-bit adder for signal <GND_8_o_b[15]_add_27_OUT> created at line 0.
+    Found 18-bit adder for signal <n1012> created at line 0.
+    Found 18-bit adder for signal <GND_8_o_b[15]_add_29_OUT> created at line 0.
+    Found 17-bit adder for signal <n1016> created at line 0.
+    Found 17-bit adder for signal <GND_8_o_b[15]_add_31_OUT> created at line 0.
+    Found 32-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 31-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 30-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 29-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 28-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 27-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 26-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 25-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 24-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 23-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 22-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 21-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 20-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 19-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 18-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 17-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 16-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Summary:
+	inferred  32 Adder/Subtractor(s).
+	inferred  17 Comparator(s).
+	inferred 241 Multiplexer(s).
+Unit <div_16u_16u> synthesized.
+
+Synthesizing Unit <boolean_14>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/boolean_14.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <boolean_14> synthesized.
+
+Synthesizing Unit <compare_15>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/compare_15.v".
+    Found 1-bit 3-to-1 multiplexer for signal <out<0>> created at line 19.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <compare_15> synthesized.
+
+Synthesizing Unit <shift_16>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/shift_16.v".
+    Found 16-bit 4-to-1 multiplexer for signal <out> created at line 51.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <shift_16> synthesized.
+
+Synthesizing Unit <muxleft_21>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxleft_21.v".
+    Found 16-bit shifter logical left for signal <x> created at line 10
+    Summary:
+	inferred   1 Combinational logic shifter(s).
+Unit <muxleft_21> synthesized.
+
+Synthesizing Unit <muxright_22>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxright_22.v".
+    Found 16-bit shifter logical right for signal <x> created at line 10
+    Summary:
+	inferred   1 Combinational logic shifter(s).
+Unit <muxright_22> synthesized.
+
+Synthesizing Unit <muxrightsign_23>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/muxrightsign_23.v".
+    Found 16-bit shifter arithmetic right for signal <x> created at line 10
+    Summary:
+	inferred   1 Combinational logic shifter(s).
+Unit <muxrightsign_23> synthesized.
+
+Synthesizing Unit <checkOut_4>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" line 24: Output port <overflow> of the instance <alu> is unconnected or connected to loadless signal.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <checkOut_4> synthesized.
+
+Synthesizing Unit <reset_conditioner_5>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/reset_conditioner_5.v".
+    Found 4-bit register for signal <M_stage_q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <reset_conditioner_5> synthesized.
+
+Synthesizing Unit <edge_detector_6>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/edge_detector_6.v".
+    Found 1-bit register for signal <M_last_q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <edge_detector_6> synthesized.
+
+Synthesizing Unit <pattern_9>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out8> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out9> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out10> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out11> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out12> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out13> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out14> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" line 51: Output port <out15> of the instance <p> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <pattern_9> synthesized.
+
+Synthesizing Unit <birdPosition_17>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v".
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" line 21: Output port <overflow> of the instance <alu> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <M_position_q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <birdPosition_17> synthesized.
+
+Synthesizing Unit <pillarShift_18>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pillarShift_18.v".
+WARNING:Xst:647 - Input <btn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <M_line3_q>.
+    Found 8-bit register for signal <M_line14_q>.
+    Found 8-bit register for signal <M_line4_q>.
+    Found 8-bit register for signal <M_line13_q>.
+    Found 8-bit register for signal <M_line2_q>.
+    Found 8-bit register for signal <M_line1_q>.
+    Found 8-bit register for signal <M_line7_q>.
+    Found 8-bit register for signal <M_line0_q>.
+    Found 8-bit register for signal <M_line5_q>.
+    Found 8-bit register for signal <M_line6_q>.
+    Found 8-bit register for signal <M_line9_q>.
+    Found 8-bit register for signal <M_line15_q>.
+    Found 8-bit register for signal <M_line12_q>.
+    Found 8-bit register for signal <M_line10_q>.
+    Found 8-bit register for signal <M_line11_q>.
+    Found 7-bit register for signal <M_sudoRandom_q>.
+    Found 8-bit register for signal <M_line8_q>.
+    Found finite state machine <FSM_0> for signal <M_sudoRandom_q>.
+    -----------------------------------------------------------------------
+    | States             | 128                                            |
+    | Transitions        | 128                                            |
+    | Inputs             | 0                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000000                                        |
+    | Power Up State     | 0000000                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred 128 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <pillarShift_18> synthesized.
+
+Synthesizing Unit <patternScreenSecond_10>.
+    Related source file is "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out0> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out1> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out2> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out3> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out4> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out5> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out6> of the instance <p> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" line 40: Output port <out7> of the instance <p> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <patternScreenSecond_10> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 4
+ 16x16-bit multiplier                                  : 4
+# Adders/Subtractors                                   : 87
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 4
+ 17-bit adder                                          : 4
+ 18-bit adder                                          : 4
+ 19-bit adder                                          : 6
+ 20-bit adder                                          : 4
+ 21-bit adder                                          : 4
+ 22-bit adder                                          : 4
+ 23-bit adder                                          : 4
+ 24-bit adder                                          : 4
+ 25-bit adder                                          : 4
+ 26-bit adder                                          : 4
+ 27-bit adder                                          : 4
+ 28-bit adder                                          : 4
+ 29-bit adder                                          : 4
+ 30-bit adder                                          : 4
+ 31-bit adder                                          : 4
+ 32-bit adder                                          : 5
+ 6-bit adder                                           : 14
+# Registers                                            : 40
+ 1-bit register                                        : 3
+ 19-bit register                                       : 2
+ 32-bit register                                       : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 33
+# Comparators                                          : 34
+ 16-bit comparator lessequal                           : 2
+ 17-bit comparator lessequal                           : 2
+ 18-bit comparator lessequal                           : 2
+ 19-bit comparator lessequal                           : 2
+ 20-bit comparator lessequal                           : 2
+ 21-bit comparator lessequal                           : 2
+ 22-bit comparator lessequal                           : 2
+ 23-bit comparator lessequal                           : 2
+ 24-bit comparator lessequal                           : 2
+ 25-bit comparator lessequal                           : 2
+ 26-bit comparator lessequal                           : 2
+ 27-bit comparator lessequal                           : 2
+ 28-bit comparator lessequal                           : 2
+ 29-bit comparator lessequal                           : 2
+ 30-bit comparator lessequal                           : 2
+ 31-bit comparator lessequal                           : 2
+ 32-bit comparator lessequal                           : 2
+# Multiplexers                                         : 511
+ 1-bit 2-to-1 multiplexer                              : 483
+ 1-bit 3-to-1 multiplexer                              : 2
+ 16-bit 2-to-1 multiplexer                             : 12
+ 16-bit 4-to-1 multiplexer                             : 4
+ 16-bit 6-to-1 multiplexer                             : 2
+ 8-bit 2-to-1 multiplexer                              : 8
+# Logic shifters                                       : 54
+ 127-bit shifter logical right                         : 48
+ 16-bit shifter arithmetic right                       : 2
+ 16-bit shifter logical left                           : 2
+ 16-bit shifter logical right                          : 2
+# FSMs                                                 : 2
+# Xors                                                 : 70
+ 1-bit xor2                                            : 66
+ 16-bit xor2                                           : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <adder_13>.
+	Multiplier <Mmult_n0033> in block <adder_13> and adder/subtractor <Msub_a[15]_a[15]_sub_6_OUT> in block <adder_13> are combined into a MAC<Maddsub_n0033>.
+Unit <adder_13> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter_11>.
+The following registers are absorbed into counter <M_ctr_q>: 1 register on signal <M_ctr_q>.
+Unit <counter_11> synthesized (advanced).
+
+Synthesizing (advanced) Unit <mojo_top_0>.
+The following registers are absorbed into counter <M_halfSecond_q>: 1 register on signal <M_halfSecond_q>.
+Unit <mojo_top_0> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 2
+ 16x16-to-16-bit MAC                                   : 2
+# Multipliers                                          : 2
+ 16x16-bit multiplier                                  : 2
+# Adders/Subtractors                                   : 50
+ 16-bit adder                                          : 2
+ 16-bit adder carry in                                 : 32
+ 16-bit subtractor                                     : 2
+ 6-bit adder                                           : 14
+# Counters                                             : 3
+ 19-bit up counter                                     : 2
+ 32-bit up counter                                     : 1
+# Registers                                            : 271
+ Flip-Flops                                            : 271
+# Comparators                                          : 34
+ 16-bit comparator lessequal                           : 2
+ 17-bit comparator lessequal                           : 2
+ 18-bit comparator lessequal                           : 2
+ 19-bit comparator lessequal                           : 2
+ 20-bit comparator lessequal                           : 2
+ 21-bit comparator lessequal                           : 2
+ 22-bit comparator lessequal                           : 2
+ 23-bit comparator lessequal                           : 2
+ 24-bit comparator lessequal                           : 2
+ 25-bit comparator lessequal                           : 2
+ 26-bit comparator lessequal                           : 2
+ 27-bit comparator lessequal                           : 2
+ 28-bit comparator lessequal                           : 2
+ 29-bit comparator lessequal                           : 2
+ 30-bit comparator lessequal                           : 2
+ 31-bit comparator lessequal                           : 2
+ 32-bit comparator lessequal                           : 2
+# Multiplexers                                         : 510
+ 1-bit 2-to-1 multiplexer                              : 482
+ 1-bit 3-to-1 multiplexer                              : 2
+ 16-bit 2-to-1 multiplexer                             : 12
+ 16-bit 4-to-1 multiplexer                             : 4
+ 16-bit 6-to-1 multiplexer                             : 2
+ 8-bit 2-to-1 multiplexer                              : 8
+# Logic shifters                                       : 54
+ 127-bit shifter logical right                         : 48
+ 16-bit shifter arithmetic right                       : 2
+ 16-bit shifter logical left                           : 2
+ 16-bit shifter logical right                          : 2
+# FSMs                                                 : 2
+# Xors                                                 : 70
+ 1-bit xor2                                            : 66
+ 16-bit xor2                                           : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line7_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line6_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line5_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line4_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line3_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line2_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line1_q_7> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_0> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_1> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_2> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_3> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_4> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_5> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_6> of sequential type is unconnected in block <mojo_top_0>.
+WARNING:Xst:2677 - Node <displayedPatternSecond/p/M_line0_q_7> of sequential type is unconnected in block <mojo_top_0>.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <M_sudoRandom_q[1:128]> with one-hot encoding.
+Optimizing FSM <FSM_0> on signal <M_sudoRandom_q[1:128]> with one-hot encoding.
+---------------------------------------------------------------------------------------------------------------------------------------------
+ State   | Encoding
+---------------------------------------------------------------------------------------------------------------------------------------------
+ 0000000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+ 0000001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010
+ 0000010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100
+ 0000011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000
+ 0000100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000
+ 0000101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000
+ 0000110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+ 0000111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000
+ 0001000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000
+ 0001001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000
+ 0001010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000
+ 0001011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000
+ 0001100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000
+ 0001101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000
+ 0001110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+ 0001111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000
+ 0010000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000
+ 0010001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000
+ 0010010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000
+ 0010011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000
+ 0010100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000
+ 0010101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000
+ 0010110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000
+ 0010111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000
+ 0011000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000
+ 0011001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000
+ 0011010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000
+ 0011011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000
+ 0011100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000
+ 0011101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000
+ 0011110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000
+ 0011111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000
+ 0100000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000
+ 0100001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000
+ 0100010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000
+ 0100011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000
+ 0100100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000
+ 0100101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000
+ 0100110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+ 0100111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000
+ 0101000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000
+ 0101001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000
+ 0101010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000
+ 0101011 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000
+ 0101100 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000
+ 0101101 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000
+ 0101110 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000
+ 0101111 | 00000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000
+ 0110000 | 00000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000
+ 0110001 | 00000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000
+ 0110010 | 00000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000
+ 0110011 | 00000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000
+ 0110100 | 00000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000
+ 0110101 | 00000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000
+ 0110110 | 00000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
+ 0110111 | 00000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000
+ 0111000 | 00000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000
+ 0111001 | 00000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000
+ 0111010 | 00000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000
+ 0111011 | 00000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000
+ 0111100 | 00000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000
+ 0111101 | 00000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000
+ 0111110 | 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000
+ 0111111 | 00000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000
+ 1000000 | 00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000
+ 1000001 | 00000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000
+ 1000010 | 00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000
+ 1000011 | 00000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000
+ 1000100 | 00000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000
+ 1000101 | 00000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000
+ 1000110 | 00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+ 1000111 | 00000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000
+ 1001000 | 00000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001001 | 00000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001010 | 00000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001011 | 00000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001100 | 00000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001101 | 00000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001110 | 00000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1001111 | 00000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010000 | 00000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010001 | 00000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010010 | 00000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010011 | 00000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010100 | 00000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010101 | 00000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010110 | 00000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1010111 | 00000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011000 | 00000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011001 | 00000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011010 | 00000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011011 | 00000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011100 | 00000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011101 | 00000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011110 | 00000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1011111 | 00000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100000 | 00000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100001 | 00000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100010 | 00000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100011 | 00000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100100 | 00000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100101 | 00000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100110 | 00000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1100111 | 00000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101000 | 00000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101001 | 00000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101010 | 00000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101011 | 00000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101100 | 00000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101101 | 00000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101110 | 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1101111 | 00000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110000 | 00000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110001 | 00000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110010 | 00000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110011 | 00000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110100 | 00000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110101 | 00000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110110 | 00000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1110111 | 00000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111000 | 00000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111001 | 00000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111010 | 00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111011 | 00001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111100 | 00010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111101 | 00100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111110 | 01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ 1111111 | 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+---------------------------------------------------------------------------------------------------------------------------------------------
+WARNING:Xst:2973 - All outputs of instance <alu/add/add> of block <addition_20> are unconnected in block <birdPosition_17>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <alu/add/a[15]_b[15]_div_3> of block <div_16u_16u> are unconnected in block <birdPosition_17>. Underlying logic will be removed.
+WARNING:Xst:2677 - Node <alu/add/Maddsub_n0033> of sequential type is unconnected in block <birdPosition_17>.
+WARNING:Xst:2973 - All outputs of instance <alu/add/add> of block <addition_20> are unconnected in block <checkOut_4>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <alu/add/a[15]_b[15]_div_3> of block <div_16u_16u> are unconnected in block <checkOut_4>. Underlying logic will be removed.
+WARNING:Xst:2677 - Node <alu/add/Maddsub_n0033> of sequential type is unconnected in block <checkOut_4>.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd128> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd128> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd127-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd127-In displayedPattern/p/M_sudoRandom_q_FSM_FFd127-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd127> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd127> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd126-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd126-In displayedPattern/p/M_sudoRandom_q_FSM_FFd126-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd126> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd126> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd125-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd125-In displayedPattern/p/M_sudoRandom_q_FSM_FFd125-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd125> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd125> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd124-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd124-In displayedPattern/p/M_sudoRandom_q_FSM_FFd124-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd124> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd124> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd123-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd123-In displayedPattern/p/M_sudoRandom_q_FSM_FFd123-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd123> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd123> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd122-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd122-In displayedPattern/p/M_sudoRandom_q_FSM_FFd122-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd122> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd122> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd121-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd121-In displayedPattern/p/M_sudoRandom_q_FSM_FFd121-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd121> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd121> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd120-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd120-In displayedPattern/p/M_sudoRandom_q_FSM_FFd120-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd120> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd120> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd119-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd119-In displayedPattern/p/M_sudoRandom_q_FSM_FFd119-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd119> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd119> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd118-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd118-In displayedPattern/p/M_sudoRandom_q_FSM_FFd118-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd118> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd118> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd117-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd117-In displayedPattern/p/M_sudoRandom_q_FSM_FFd117-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd117> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd117> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd116-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd116-In displayedPattern/p/M_sudoRandom_q_FSM_FFd116-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd116> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd116> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd115-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd115-In displayedPattern/p/M_sudoRandom_q_FSM_FFd115-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd115> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd115> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd114-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd114-In displayedPattern/p/M_sudoRandom_q_FSM_FFd114-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd114> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd114> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd113-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd113-In displayedPattern/p/M_sudoRandom_q_FSM_FFd113-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd113> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd113> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd112-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd112-In displayedPattern/p/M_sudoRandom_q_FSM_FFd112-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd112> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd112> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd111-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd111-In displayedPattern/p/M_sudoRandom_q_FSM_FFd111-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd111> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd111> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd110-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd110-In displayedPattern/p/M_sudoRandom_q_FSM_FFd110-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd110> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd110> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd109-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd109-In displayedPattern/p/M_sudoRandom_q_FSM_FFd109-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd109> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd109> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd108-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd108-In displayedPattern/p/M_sudoRandom_q_FSM_FFd108-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd108> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd108> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd107-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd107-In displayedPattern/p/M_sudoRandom_q_FSM_FFd107-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd107> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd107> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd106-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd106-In displayedPattern/p/M_sudoRandom_q_FSM_FFd106-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd106> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd106> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd105-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd105-In displayedPattern/p/M_sudoRandom_q_FSM_FFd105-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd105> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd105> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd104-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd104-In displayedPattern/p/M_sudoRandom_q_FSM_FFd104-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd104> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd104> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd103-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd103-In displayedPattern/p/M_sudoRandom_q_FSM_FFd103-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd103> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd103> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd102-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd102-In displayedPattern/p/M_sudoRandom_q_FSM_FFd102-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd102> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd102> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd101-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd101-In displayedPattern/p/M_sudoRandom_q_FSM_FFd101-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd101> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd101> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd100-In displayedPattern/p/M_sudoRandom_q_FSM_FFd100-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd100> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100 and displayedPattern/p/M_sudoRandom_q_FSM_FFd100 displayedPattern/p/M_sudoRandom_q_FSM_FFd100 signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd99> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd99> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd98-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd98-In displayedPattern/p/M_sudoRandom_q_FSM_FFd98-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd98> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd98> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd97-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd97-In displayedPattern/p/M_sudoRandom_q_FSM_FFd97-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd97> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd97> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd96-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd96-In displayedPattern/p/M_sudoRandom_q_FSM_FFd96-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd96> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd96> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd95-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd95-In displayedPattern/p/M_sudoRandom_q_FSM_FFd95-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd95> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd95> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd94-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd94-In displayedPattern/p/M_sudoRandom_q_FSM_FFd94-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd94> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd94> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd93-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd93-In displayedPattern/p/M_sudoRandom_q_FSM_FFd93-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd93> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd93> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd92-In displayedPattern/p/M_sudoRandom_q_FSM_FFd92-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd92> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd91-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd91-In displayedPattern/p/M_sudoRandom_q_FSM_FFd91-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd91> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd91> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd90-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd90-In displayedPattern/p/M_sudoRandom_q_FSM_FFd90-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd90> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd90> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd89-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd89-In displayedPattern/p/M_sudoRandom_q_FSM_FFd89-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd89> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd89> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd88-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd88-In displayedPattern/p/M_sudoRandom_q_FSM_FFd88-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd88> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd88> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd87-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd87-In displayedPattern/p/M_sudoRandom_q_FSM_FFd87-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd87> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd87> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd86-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd86-In displayedPattern/p/M_sudoRandom_q_FSM_FFd86-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd86> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd86> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd85-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd85-In displayedPattern/p/M_sudoRandom_q_FSM_FFd85-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd85> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd85> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd84-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd84-In displayedPattern/p/M_sudoRandom_q_FSM_FFd84-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd84> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd84> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd83-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd83-In displayedPattern/p/M_sudoRandom_q_FSM_FFd83-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd83> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd83> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd82-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd82-In displayedPattern/p/M_sudoRandom_q_FSM_FFd82-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd82> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd82> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd81-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd81-In displayedPattern/p/M_sudoRandom_q_FSM_FFd81-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd81> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd81> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd80-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd80-In displayedPattern/p/M_sudoRandom_q_FSM_FFd80-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd80> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd80> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd79-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd79-In displayedPattern/p/M_sudoRandom_q_FSM_FFd79-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd79> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd79> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd78-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd78-In displayedPattern/p/M_sudoRandom_q_FSM_FFd78-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd78> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd78> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd77-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd77-In displayedPattern/p/M_sudoRandom_q_FSM_FFd77-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd77> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd77> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd76-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd76-In displayedPattern/p/M_sudoRandom_q_FSM_FFd76-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd76> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd76> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd75-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd75-In displayedPattern/p/M_sudoRandom_q_FSM_FFd75-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd75> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd75> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd74-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd74-In displayedPattern/p/M_sudoRandom_q_FSM_FFd74-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd74> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd74> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd73-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd73-In displayedPattern/p/M_sudoRandom_q_FSM_FFd73-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd73> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd73> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd72-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd72-In displayedPattern/p/M_sudoRandom_q_FSM_FFd72-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd72> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd72> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd71-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd71-In displayedPattern/p/M_sudoRandom_q_FSM_FFd71-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd71> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd71> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd70-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd70-In displayedPattern/p/M_sudoRandom_q_FSM_FFd70-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd70> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd70> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd69-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd69-In displayedPattern/p/M_sudoRandom_q_FSM_FFd69-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd69> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd69> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd68-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd68-In displayedPattern/p/M_sudoRandom_q_FSM_FFd68-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd68> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd68> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd67-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd67-In displayedPattern/p/M_sudoRandom_q_FSM_FFd67-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd67> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd67> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd66-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd66-In displayedPattern/p/M_sudoRandom_q_FSM_FFd66-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd66> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd66> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd65-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd65-In displayedPattern/p/M_sudoRandom_q_FSM_FFd65-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd65> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd65> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd64-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd64-In displayedPattern/p/M_sudoRandom_q_FSM_FFd64-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd64> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd64> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd63-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd63-In displayedPattern/p/M_sudoRandom_q_FSM_FFd63-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd63> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd63> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd62-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd62-In displayedPattern/p/M_sudoRandom_q_FSM_FFd62-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd62> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd62> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd61-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd61-In displayedPattern/p/M_sudoRandom_q_FSM_FFd61-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd61> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd61> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd60-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd60-In displayedPattern/p/M_sudoRandom_q_FSM_FFd60-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd60> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd60> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd59-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd59-In displayedPattern/p/M_sudoRandom_q_FSM_FFd59-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd59> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd59> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd58-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd58-In displayedPattern/p/M_sudoRandom_q_FSM_FFd58-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd58> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd58> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd57-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd57-In displayedPattern/p/M_sudoRandom_q_FSM_FFd57-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd57> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd57> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd56-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd56-In displayedPattern/p/M_sudoRandom_q_FSM_FFd56-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd56> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd56> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd55-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd55-In displayedPattern/p/M_sudoRandom_q_FSM_FFd55-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd55> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd55> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd54-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd54-In displayedPattern/p/M_sudoRandom_q_FSM_FFd54-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd54> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd54> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd53-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd53-In displayedPattern/p/M_sudoRandom_q_FSM_FFd53-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd53> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd53> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd52-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd52-In displayedPattern/p/M_sudoRandom_q_FSM_FFd52-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd52> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd52> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd51-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd51-In displayedPattern/p/M_sudoRandom_q_FSM_FFd51-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd51> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd51> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd50-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd50-In displayedPattern/p/M_sudoRandom_q_FSM_FFd50-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd50> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd50> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd49-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd49-In displayedPattern/p/M_sudoRandom_q_FSM_FFd49-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd49> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd49> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd48-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd48-In displayedPattern/p/M_sudoRandom_q_FSM_FFd48-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd48> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd48> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd47-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd47-In displayedPattern/p/M_sudoRandom_q_FSM_FFd47-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd47> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd47> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd46-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd46-In displayedPattern/p/M_sudoRandom_q_FSM_FFd46-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd46> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd46> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd45-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd45-In displayedPattern/p/M_sudoRandom_q_FSM_FFd45-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd45> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd45> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd44-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd44-In displayedPattern/p/M_sudoRandom_q_FSM_FFd44-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd44> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd44> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd43-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd43-In displayedPattern/p/M_sudoRandom_q_FSM_FFd43-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd43> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd43> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd42-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd42-In displayedPattern/p/M_sudoRandom_q_FSM_FFd42-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd42> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd42> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd41-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd41-In displayedPattern/p/M_sudoRandom_q_FSM_FFd41-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd41> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd41> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd40-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd40-In displayedPattern/p/M_sudoRandom_q_FSM_FFd40-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd40> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd40> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd39-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd39-In displayedPattern/p/M_sudoRandom_q_FSM_FFd39-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd39> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd39> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd38-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd38-In displayedPattern/p/M_sudoRandom_q_FSM_FFd38-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd38> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd38> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd37-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd37-In displayedPattern/p/M_sudoRandom_q_FSM_FFd37-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd37> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd37> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd36-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd36-In displayedPattern/p/M_sudoRandom_q_FSM_FFd36-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd36> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd36> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd35-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd35-In displayedPattern/p/M_sudoRandom_q_FSM_FFd35-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd35> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd35> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd34-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd34-In displayedPattern/p/M_sudoRandom_q_FSM_FFd34-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd34> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd34> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd33-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd33-In displayedPattern/p/M_sudoRandom_q_FSM_FFd33-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd33> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd33> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd32-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd32-In displayedPattern/p/M_sudoRandom_q_FSM_FFd32-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd32> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd32> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd31-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd31-In displayedPattern/p/M_sudoRandom_q_FSM_FFd31-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd31> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd31> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd30-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd30-In displayedPattern/p/M_sudoRandom_q_FSM_FFd30-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd30> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd30> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd29-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd29-In displayedPattern/p/M_sudoRandom_q_FSM_FFd29-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd29> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd29> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd28-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd28-In displayedPattern/p/M_sudoRandom_q_FSM_FFd28-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd28> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd28> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd27-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd27-In displayedPattern/p/M_sudoRandom_q_FSM_FFd27-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd27> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd27> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd26-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd26-In displayedPattern/p/M_sudoRandom_q_FSM_FFd26-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd26> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd26> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd25-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd25-In displayedPattern/p/M_sudoRandom_q_FSM_FFd25-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd25> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd25> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd24-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd24-In displayedPattern/p/M_sudoRandom_q_FSM_FFd24-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd24> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd24> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd23-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd23-In displayedPattern/p/M_sudoRandom_q_FSM_FFd23-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd23> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd23> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd22-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd22-In displayedPattern/p/M_sudoRandom_q_FSM_FFd22-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd22> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd22> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd21-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd21-In displayedPattern/p/M_sudoRandom_q_FSM_FFd21-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd21> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd21> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd20-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd20-In displayedPattern/p/M_sudoRandom_q_FSM_FFd20-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd20> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd20> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd19-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd19-In displayedPattern/p/M_sudoRandom_q_FSM_FFd19-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd19> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd19> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18-In and displayedPattern/p/M_sudoRandom_q_FSM_FFd18-In displayedPattern/p/M_sudoRandom_q_FSM_FFd18-In signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line15_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line15_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPattern/p/M_sudoRandom_q_FSM_FFd18> 
+WARNING:Xst:638 - in unit mojo_top_0 Conflict on KEEP property on signal displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18 and displayedPattern/p/M_sudoRandom_q_FSM_FFd18 displayedPattern/p/M_sudoRandom_q_FSM_FFd18 signal will be lost.
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line14_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line14_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line13_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line13_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line12_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line12_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line11_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line11_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line10_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line10_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line9_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line9_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line8_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line8_q_5> 
+
+Optimizing unit <mojo_top_0> ...
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line15_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line15_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line15_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line15_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line14_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line14_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line14_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line14_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line13_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line13_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line13_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line13_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line12_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line12_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line12_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line12_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line11_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line11_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line11_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line11_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line10_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line10_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line10_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line10_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line9_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line9_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line9_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line9_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line8_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line8_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line8_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line8_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line15_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line15_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line15_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line15_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line14_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line14_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line14_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line14_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line13_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line13_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line13_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line13_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line12_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line12_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line12_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line12_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line11_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line11_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line11_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line11_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line10_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line10_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line10_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line10_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line9_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line9_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line9_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line9_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line8_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line8_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayedPattern/p/M_line8_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <displayedPatternSecond/p/M_line8_q_6> 
+
+Optimizing unit <display_1> ...
+
+Optimizing unit <birdPosition_17> ...
+
+Optimizing unit <div_16u_16u> ...
+
+Optimizing unit <addition_20> ...
+WARNING:Xst:1293 - FF/Latch <M_halfSecond_q_24> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_27> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_25> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_26> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_28> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_29> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_30> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <M_halfSecond_q_31> has a constant value of 0 in block <mojo_top_0>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_0> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_0> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_1> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_1> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_2> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_2> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_3> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_3> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_4> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_4> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_5> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_5> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_6> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_6> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_7> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_7> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_8> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_8> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_9> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_9> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_10> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_10> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_11> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_11> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_12> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_12> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_13> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_13> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_14> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_14> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_15> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_15> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_16> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_16> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_17> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_17> 
+INFO:Xst:2261 - The FF/Latch <displayb/counter_r/M_ctr_q_18> in Unit <mojo_top_0> is equivalent to the following FF/Latch, which will be removed : <display/counter_r/M_ctr_q_18> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block mojo_top_0, actual ratio is 8.
+FlipFlop displayb/counter_r/M_ctr_q_16 has been replicated 1 time(s)
+FlipFlop displayb/counter_r/M_ctr_q_17 has been replicated 1 time(s)
+FlipFlop displayb/counter_r/M_ctr_q_18 has been replicated 1 time(s)
+FlipFlop slow_rst/M_last_q has been replicated 1 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop slow_rst/M_last_q connected to a primary input has been replicated
+
+Final Macro Processing ...
+
+Processing Unit <mojo_top_0> :
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <reset_cond/M_stage_q_3> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <mojo_top_0> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 375
+ Flip-Flops                                            : 375
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mojo_top_0.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 665
+#      GND                         : 4
+#      INV                         : 5
+#      LUT1                        : 41
+#      LUT2                        : 22
+#      LUT3                        : 305
+#      LUT4                        : 33
+#      LUT5                        : 27
+#      LUT6                        : 117
+#      MUXCY                       : 65
+#      VCC                         : 3
+#      XORCY                       : 43
+# FlipFlops/Latches                : 375
+#      FD                          : 364
+#      FDR                         : 7
+#      FDS                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 60
+#      IBUF                        : 3
+#      OBUF                        : 57
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             375  out of  11440     3%  
+ Number of Slice LUTs:                  550  out of   5720     9%  
+    Number used as Logic:               550  out of   5720     9%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    562
+   Number with an unused Flip Flop:     187  out of    562    33%  
+   Number with an unused LUT:            12  out of    562     2%  
+   Number of fully used LUT-FF pairs:   363  out of    562    64%  
+   Number of unique control sets:         9
+
+IO Utilization: 
+ Number of IOs:                          61
+ Number of bonded IOBs:                  61  out of    102    59%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 52    |
+M_second_clk_q_0                   | BUFG                   | 323   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.476ns (Maximum Frequency: 223.414MHz)
+   Minimum input arrival time before clock: 5.527ns
+   Maximum output required time after clock: 7.671ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.447ns (frequency: 224.871MHz)
+  Total number of paths / destination ports: 1614 / 51
+-------------------------------------------------------------------------
+Delay:               4.447ns (Levels of Logic = 3)
+  Source:            displayb/counter_r/M_ctr_q_17_1 (FF)
+  Destination:       displayb/counter_r/M_ctr_q_16 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: displayb/counter_r/M_ctr_q_17_1 to displayb/counter_r/M_ctr_q_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.525   1.112  M_ctr_q_17_1 (M_ctr_q_17_1)
+     LUT5:I0->O            2   0.254   0.954  Mcount_M_ctr_q_val5_SW0 (N39)
+     LUT6:I3->O           11   0.235   1.039  Mcount_M_ctr_q_val5 (Mcount_M_ctr_q_val)
+     LUT2:I1->O            2   0.254   0.000  M_ctr_q_16_rstpot (M_ctr_q_16_rstpot)
+     FD:D                      0.074          M_ctr_q_16
+    ----------------------------------------
+    Total                      4.447ns (1.342ns logic, 3.105ns route)
+                                       (30.2% logic, 69.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'M_second_clk_q_0'
+  Clock period: 4.476ns (frequency: 223.414MHz)
+  Total number of paths / destination ports: 1074 / 328
+-------------------------------------------------------------------------
+Delay:               4.476ns (Levels of Logic = 5)
+  Source:            displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92 (FF)
+  Destination:       displayedPattern/p/M_line15_q_6 (FF)
+  Source Clock:      M_second_clk_q_0 rising
+  Destination Clock: M_second_clk_q_0 rising
+
+  Data Path: displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92 to displayedPattern/p/M_line15_q_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.525   1.296  M_sudoRandom_q_FSM_FFd92 (M_sudoRandom_q_FSM_FFd92)
+     end scope: 'displayedPatternSecond/p:M_sudoRandom_q_FSM_FFd91-In'
+     end scope: 'displayedPatternSecond:M_sudoRandom_q_FSM_FFd91-In'
+     begin scope: 'displayedPattern:M_sudoRandom_q_FSM_FFd91-In'
+     begin scope: 'displayedPattern/p:M_sudoRandom_q_FSM_FFd91-In'
+     LUT6:I0->O            1   0.254   1.137  M_sudoRandom_q_M_line15_d<6>2 (M_sudoRandom_q_M_line15_d<6>1)
+     LUT6:I0->O            1   0.254   0.682  M_sudoRandom_q_M_line15_d<6>3 (M_line15_d<6>)
+     LUT3:I2->O            1   0.254   0.000  M_line15_q_6_rstpot (M_line15_q_6_rstpot)
+     FD:D                      0.074          M_line15_q_6
+    ----------------------------------------
+    Total                      4.476ns (1.361ns logic, 3.115ns route)
+                                       (30.4% logic, 69.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.095ns (Levels of Logic = 2)
+  Source:            buttonReset (PAD)
+  Destination:       M_playingmode_q (FF)
+  Destination Clock: clk rising
+
+  Data Path: buttonReset to M_playingmode_q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           317   1.328   2.439  buttonReset_IBUF (buttonReset_IBUF)
+     LUT5:I4->O            1   0.254   0.000  M_playingmode_q_rstpot (M_playingmode_q_rstpot)
+     FD:D                      0.074          M_playingmode_q
+    ----------------------------------------
+    Total                      4.095ns (1.656ns logic, 2.439ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'M_second_clk_q_0'
+  Total number of paths / destination ports: 331 / 323
+-------------------------------------------------------------------------
+Offset:              5.527ns (Levels of Logic = 4)
+  Source:            buttonReset (PAD)
+  Destination:       displayedPatternSecond/p/M_line15_q_0 (FF)
+  Destination Clock: M_second_clk_q_0 rising
+
+  Data Path: buttonReset to displayedPatternSecond/p/M_line15_q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           317   1.328   2.547  buttonReset_IBUF (buttonReset_IBUF)
+     begin scope: 'slow_rst:in'
+     LUT2:I0->O            8   0.250   0.943  out1 (out)
+     end scope: 'slow_rst:out'
+     begin scope: 'displayedPatternSecond:rst2'
+     begin scope: 'displayedPatternSecond/p:rst'
+     FDR:R                     0.459          M_line15_q_0
+    ----------------------------------------
+    Total                      5.527ns (2.037ns logic, 3.490ns route)
+                                       (36.9% logic, 63.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 200 / 48
+-------------------------------------------------------------------------
+Offset:              7.671ns (Levels of Logic = 4)
+  Source:            displayb/counter_r/M_ctr_q_17 (FF)
+  Destination:       c_blue<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: displayb/counter_r/M_ctr_q_17 to c_blue<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              49   0.525   2.259  M_ctr_q_17 (M_ctr_q_17)
+     end scope: 'displayb/counter_r:value<1>'
+     end scope: 'displayb:M_ctr_q_17'
+     LUT6:I0->O            1   0.254   0.790  Mmux_c_redb82 (Mmux_c_redb81)
+     LUT4:I2->O            1   0.250   0.681  Mmux_c_redb83 (c_redb_7_OBUF)
+     OBUF:I->O                 2.912          c_redb_7_OBUF (c_redb<7>)
+    ----------------------------------------
+    Total                      7.671ns (3.941ns logic, 3.730ns route)
+                                       (51.4% logic, 48.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'M_second_clk_q_0'
+  Total number of paths / destination ports: 136 / 24
+-------------------------------------------------------------------------
+Offset:              6.414ns (Levels of Logic = 4)
+  Source:            displayedPattern/p/M_line5_q_7 (FF)
+  Destination:       c_blue<7> (PAD)
+  Source Clock:      M_second_clk_q_0 rising
+
+  Data Path: displayedPattern/p/M_line5_q_7 to c_blue<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.525   1.002  M_line5_q_7 (M_line5_q_7)
+     end scope: 'displayedPattern/p:out5<7>'
+     end scope: 'displayedPattern:outblue<23>'
+     LUT6:I2->O            1   0.254   0.790  Mmux_c_blue82 (Mmux_c_blue81)
+     LUT4:I2->O            1   0.250   0.681  Mmux_c_blue83 (c_blue_7_OBUF)
+     OBUF:I->O                 2.912          c_blue_7_OBUF (c_blue<7>)
+    ----------------------------------------
+    Total                      6.414ns (3.941ns logic, 2.473ns route)
+                                       (61.4% logic, 38.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock M_second_clk_q_0
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+M_second_clk_q_0|    4.476|         |         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+M_second_clk_q_0|    8.499|         |         |         |
+clk             |    4.447|         |         |         |
+----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.43 secs
+ 
+--> 
+
+Total memory usage is 276132 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  230 (   0 filtered)
+Number of infos    :  197 (   0 filtered)
+

@@ -1,0 +1,29 @@
+module shift (
+    input alufn10[2],
+    input a[16],
+    input b[4],
+    output out[16]
+  ) {
+  muxleft shl;
+  muxright shr;
+  muxrightsign sra;
+  always {
+    shl.a=a;
+    shl.b=b;
+    shr.a=a;
+    shr.b=b;
+    sra.a=a;
+    sra.b=b;
+    
+    case(alufn10){
+      2b00:
+        out=shl.x;
+      2b01:
+        out=shr.x;
+      2b11:
+        out=sra.x;
+      default:
+        out=16b1111111111111111;
+      }
+  }
+}

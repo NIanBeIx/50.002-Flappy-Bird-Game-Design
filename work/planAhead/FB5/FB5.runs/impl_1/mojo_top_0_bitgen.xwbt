@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\Users\LETONG WEI\Desktop\SM2 document\ISTD\50.002\FB5\work\planAhead\FB5\FB5.runs\impl_1\mojo_top_0_routed.ncd
+OUTFILE=C:\Users\LETONG WEI\Desktop\SM2 document\ISTD\50.002\FB5\work\planAhead\FB5\FB5.runs\impl_1\mojo_top_0.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\LETONG WEI\Desktop\SM2 document\ISTD\50.002\FB5\work\planAhead\FB5\FB5.runs\impl_1
+LICENSE=WebPack
+USER_INFO=211600040_0_0_736

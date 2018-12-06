@@ -1,0 +1,26 @@
+module birdPosition (
+    input clk,
+    input rst,
+    input btn,
+    output outPosition[8]
+  ) {
+  
+  alu alu;
+  dff position[8](#INIT(8b00010000),.clk(clk),.rst(rst));
+
+  always {
+  alu.a=position.q;
+  alu.b=1;
+  outPosition = position.q;
+    if(btn==1){
+      alu.alufn=100000; //using SHL function
+      position.d=alu.out;
+      //position.d=position.q<<1;
+      }
+    else{
+      alu.alufn=100001; //using SHR function
+      position.d=alu.out;
+      //position.d=position.q>>1;
+      }
+  }
+}

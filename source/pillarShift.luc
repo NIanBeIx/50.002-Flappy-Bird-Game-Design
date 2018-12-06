@@ -1,0 +1,1138 @@
+module pillarShift (
+    input clk,  // clock
+    input rst,  // reset
+    input btn,
+    output out0[8],
+    output out1[8],
+    output out2[8],
+    output out3[8],
+    output out4[8],
+    output out5[8],
+    output out6[8],
+    output out7[8],
+    output out8[8],
+    output out9[8],
+    output out10[8],
+    output out11[8],
+    output out12[8],
+    output out13[8],
+    output out14[8],
+    output out15[8]
+  ) {
+  
+  
+  dff line0[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line1[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line2[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line3[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line4[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line5[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line6[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line7[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line8[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line9[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line10[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line11[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line12[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line13[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line14[8](#INIT(8b0),.clk(clk),.rst(rst));
+  dff line15[8](#INIT(8b0),.clk(clk),.rst(rst));
+  
+  .clk(clk){
+    fsm sudoRandom(.rst(rst))={ST1,ST2,ST3,ST4,ST5,ST6,ST7,A1,A2,B1,B2,C1,C2,D1,D2,E1,E2,F1,F2,G1,G2,H1,H2,I1,I2,J1,J2,K1,K2,L1,L2,M1,M2,N1,N2,O1,O2,P1,P2,Q1,Q2,R1,R2,S1,S2,T1,T2,U1,U2,V1,V2,W1,W2,X1,X2,Y1,Y2,Z1,Z2,AA1,AA2,BB1,BB2,CC1,CC2,DD1,DD2,EE1,EE2,FF1,FF2,GG1,GG2,HH1,HH2,II1,II2,JJ1,JJ2,KK1,KK2,LL1,LL2,MM1,MM2,NN1,NN2,OO1,OO2,PP1,PP2,QQ1,QQ2,RR1,RR2,SS1,SS2,TT1,TT2,UU1,UU2,VV1,VV2,WW1,WW2,XX1,XX2,YY1,YY2,ZZ1,ZZ2,ISTD1,ISTD2,ISTD3,ISTD4,ISTD5,ISTD6,ISTD7,ISTD8,ISTD9,ISTD10,ISTD11,ISTD12,ISTD13,ISTD14,ISTD15,ISTD16,ISTD17};
+    
+    }
+  
+  sig newline[8];
+  .clk(clk){
+    //display d;
+    
+    }
+
+  always {
+  
+    line0.d=8b00000000;
+    line1.d=8b00000000;
+    line2.d=8b11000011;
+    line3.d=8b11000011;
+    line4.d=8b00000000;
+    line5.d=8b00000000;
+    line6.d=8b10000111;
+    line7.d=8b10000111;
+    line8.d=8b00000000;
+    line9.d=8b00000000;
+    line10.d=8b11100001;
+    line11.d=8b11100001;
+    line12.d=8b00000000;
+    line13.d=8b00000000;
+    line14.d=8b00001111;
+    line15.d=8b00001111;
+    
+    line15.d=8b00000000;
+    
+    
+    case(sudoRandom.q){
+    
+      
+      
+      sudoRandom.ST1:
+        newline=8b00000001;
+        line15.d=newline;
+        //line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST2;
+          }
+        
+      sudoRandom.ST2:
+        newline=8b00011111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST3;
+          }
+        
+      sudoRandom.ST3:
+        newline=8b00001001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST4;
+          }
+        
+      sudoRandom.ST4:
+        newline=8b0;
+        line15.d=newline;
+        //line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST5;
+          }
+        
+      sudoRandom.ST5:
+        newline=8b0;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST6;
+          }
+        
+        
+      sudoRandom.ST6:
+        newline=8b0;
+        line15.d=newline;
+        //line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ST7;
+          }
+        
+      sudoRandom.ST7:
+        newline=8b0;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.A1;
+          }
+        
+
+      sudoRandom.A1:
+        newline=8b11000011;
+        line15.d=newline;
+        //line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.A2;
+          }
+        
+      sudoRandom.A2:
+        newline=8b11000011;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.B1;
+          }
+        
+      sudoRandom.B1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.B2;
+          }
+        
+      sudoRandom.B2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.C1;
+          }
+        
+      sudoRandom.C1:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.C2;
+          }
+        
+      sudoRandom.C2:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.D1;
+          }
+        
+      sudoRandom.D1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.D2;
+          }
+      
+      sudoRandom.D2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.E1;
+          }
+        
+      sudoRandom.E1:
+        newline=8b11100001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.E2;
+          }
+        
+      sudoRandom.E2:
+        newline=8b11100001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.F1;
+          }
+        
+      sudoRandom.F1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.F2;
+          }
+      
+      sudoRandom.F2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.G1;
+          }
+        
+      sudoRandom.G1:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.G2;
+          }
+        
+      sudoRandom.G2:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.H1;
+          }
+        
+      sudoRandom.H1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.H2;
+          }
+      
+      sudoRandom.H2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.I1;
+          }
+        
+        
+      sudoRandom.I1:
+        newline=8b11110000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.I2;
+          }
+        
+      sudoRandom.I2:
+        newline=8b11110000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.J1;
+          }
+        
+      sudoRandom.J1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.J2;
+          }
+      
+      sudoRandom.J2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.K1;
+          }
+        
+      sudoRandom.K1:
+        newline=8b00001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.K2;
+          }
+        
+      sudoRandom.K2:
+        newline=8b00001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.L1;
+          }
+        
+      sudoRandom.L1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.L2;
+          }
+      
+      sudoRandom.L2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.M1;
+          }
+        
+      sudoRandom.M1:
+        newline=8b11000011;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.M2;
+          }
+        
+      sudoRandom.M2:
+        newline=8b11000011;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.N1;
+          }
+        
+      sudoRandom.N1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.N2;
+          }
+      
+      sudoRandom.N2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.O1;
+          }
+        
+      sudoRandom.O1:
+        newline=8b11100001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.O2;
+          }
+        
+      sudoRandom.O2:
+        newline=8b11100001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.P1;
+          }
+        
+      sudoRandom.P1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.P2;
+          }
+      
+      sudoRandom.P2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Q1;
+          }
+        
+      sudoRandom.Q1:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Q2;
+          }
+        
+      sudoRandom.Q2:
+        newline=8b10000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.R1;
+          }
+        
+      sudoRandom.R1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.R2;
+          }
+      
+      sudoRandom.R2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.S1;
+          }
+        
+      sudoRandom.S1:
+        newline=8b11110000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.S2;
+          }
+        
+      sudoRandom.S2:
+        newline=8b11110000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.T1;
+          }
+        
+      sudoRandom.T1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.T2;
+          }
+      
+      sudoRandom.T2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.U1;
+          }
+        
+      sudoRandom.U1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.U2;
+          }
+       
+      sudoRandom.U2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.V1;
+          }
+        //2
+      sudoRandom.V1:
+        newline=8b0;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.V2;
+          }
+      
+      sudoRandom.V2:
+        newline=8b00011101;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.W1;
+          }
+        
+      sudoRandom.W1:
+        newline=8b00010101;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.W2;
+          }
+        
+      sudoRandom.W2:
+        newline=8b00010111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.X1;
+          }
+        
+      sudoRandom.X1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.X2;
+          }
+      
+      sudoRandom.X2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Y1;
+          }
+        
+      sudoRandom.Y1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Y2;
+          }
+      sudoRandom.Y2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Z1;
+          }
+      sudoRandom.Z1:
+        newline=8b00000000;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.Z2;
+          }
+        line7.d=newline;
+      sudoRandom.Z2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.AA1;
+          }
+        
+        
+        //State2: 3 paces in between
+        
+        
+        sudoRandom.AA1:
+        newline=8b11000111;
+        line15.d=newline;
+        //line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.AA2;
+          }
+        
+      sudoRandom.AA2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.BB1;
+          }
+        
+      sudoRandom.BB1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.BB2;
+          }
+        
+      sudoRandom.BB2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.CC1;
+          }
+        
+      sudoRandom.CC1:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.CC2;
+          }
+        
+      sudoRandom.CC2:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.DD1;
+          }
+        
+      sudoRandom.DD1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.DD2;
+          }
+      
+      sudoRandom.DD2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.EE1;
+          }
+        
+      sudoRandom.EE1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.EE2;
+          }
+        
+      sudoRandom.EE2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.FF1;
+          }
+        
+      sudoRandom.FF1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.FF2;
+          }
+      
+      sudoRandom.FF2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.GG1;
+          }
+        
+      sudoRandom.GG1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.GG2;
+          }
+        
+      sudoRandom.GG2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.HH1;
+          }
+        
+      sudoRandom.HH1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.HH2;
+          }
+      
+      sudoRandom.HH2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.II1;
+          }
+        
+        
+      sudoRandom.II1:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.II2;
+          }
+        
+      sudoRandom.II2:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.JJ1;
+          }
+        
+      sudoRandom.JJ1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.JJ2;
+          }
+      
+      sudoRandom.JJ2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.KK1;
+          }
+        
+      sudoRandom.KK1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.KK2;
+          }
+        
+      sudoRandom.KK2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.LL1;
+          }
+        
+      sudoRandom.LL1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.LL2;
+          }
+      
+      sudoRandom.LL2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.MM1;
+          }
+        
+      sudoRandom.MM1:
+        newline=8b10001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.MM2;
+          }
+        
+      sudoRandom.MM2:
+        newline=8b10001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.NN1;
+          }
+        
+      sudoRandom.NN1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.NN2;
+          }
+      
+      sudoRandom.NN2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.OO1;
+          }
+        
+      sudoRandom.OO1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.OO2;
+          }
+        
+      sudoRandom.OO2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.PP1;
+          }
+        
+      sudoRandom.PP1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.PP2;
+          }
+      
+      sudoRandom.PP2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.QQ1;
+          }
+        
+      sudoRandom.QQ1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.QQ2;
+          }
+        
+      sudoRandom.QQ2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.RR1;
+          }
+        
+      sudoRandom.RR1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.RR2;
+          }
+      
+      sudoRandom.RR2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.SS1;
+          }
+        
+      sudoRandom.SS1:
+        newline=8b10001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.SS2;
+          }
+        
+      sudoRandom.SS2:
+        newline=8b10001111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.TT1;
+          }
+        
+      sudoRandom.TT1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.TT2;
+          }
+      
+      sudoRandom.TT2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.UU1;
+          }
+        
+      sudoRandom.UU1:
+        newline=8b11100011;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.UU2;
+          }
+        
+      sudoRandom.UU2:
+        newline=8b11100011;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.VV1;
+          }
+        
+      sudoRandom.VV1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.VV2;
+          }
+      
+      sudoRandom.VV2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.WW1;
+          }
+        
+      sudoRandom.WW1:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.WW2;
+          }
+        
+      sudoRandom.WW2:
+        newline=8b11000111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.XX1;
+          }
+        
+      sudoRandom.XX1:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.XX2;
+          }
+      
+      sudoRandom.XX2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.YY1;
+          }
+        
+      sudoRandom.YY1:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.YY2;
+          }
+      sudoRandom.YY2:
+        newline=8b11110001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ZZ1;
+          }
+      sudoRandom.ZZ1:
+        newline=8b00000000;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ZZ2;
+          }
+        line7.d=newline;
+      sudoRandom.ZZ2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD1;
+          }
+        
+        
+      sudoRandom.ISTD1:
+        newline=8b00000000;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD2;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD2:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD3;
+          }
+     //////////////////// I    
+      sudoRandom.ISTD3:
+        newline=8b00010001;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD4;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD4:
+        newline=8b00011111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD5;
+          }
+        
+      sudoRandom.ISTD5:
+        newline=8b00010001;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD6;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD6:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD7;
+          }
+        
+        ////////////// S
+      sudoRandom.ISTD7:
+        newline=8b00010111;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD8;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD8:
+        newline=8b00010101;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD9;
+          }
+        
+      sudoRandom.ISTD9:
+        newline=8b00011101;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD10;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD10:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD11;
+          }
+        /////////////////////////////T
+      sudoRandom.ISTD11:
+        newline=8b00010000;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD12;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD12:
+        newline=8b00011111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD13;
+          }
+      sudoRandom.ISTD13:
+        newline=8b00010000;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD14;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD14:
+        newline=8b00000000;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD15;
+          }
+        //////////////////////////D
+      sudoRandom.ISTD15:
+        newline=8b00001110;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD16;
+          }
+        line7.d=newline;
+      sudoRandom.ISTD16:
+        newline=8b00010001;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD17;
+          }
+      sudoRandom.ISTD17:
+        newline=8b00011111;
+        //line15.d=newline;
+        line15.d=newline;
+        if(1==1){
+        sudoRandom.d=sudoRandom.ISTD1;
+          }
+        
+      
+      
+      }
+  
+    line0.d=line1.q;
+    line1.d=line2.q;
+    line2.d=line3.q;
+    line3.d=line4.q;
+    line4.d=line5.q;
+    line5.d=line6.q;
+    line6.d=line7.q;
+    line7.d=line8.q;
+    line8.d=line9.q;
+    line9.d=line10.q;
+    line10.d=line11.q;
+    line11.d=line12.q;
+    line12.d=line13.q;
+    line13.d=line14.q;
+    line14.d=line15.q;
+    
+    
+    
+    out0=line0.q;
+    out1=line1.q;
+    out2=line2.q;
+    out3=line3.q;
+    out4=line4.q;
+    out5=line5.q;
+    out6=line6.q;
+    out7=line7.q;
+    out8=line8.q;
+    out9=line9.q;
+    out10=line10.q;
+    out11=line11.q;
+    out12=line12.q;
+    out13=line13.q;
+    out14=line14.q;
+    out15=line15.q;
+    
+    
+    }
+  
+}

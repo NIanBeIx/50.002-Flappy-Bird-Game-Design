@@ -1,0 +1,56 @@
+module alu (
+    input a[16],
+    input b[16],
+    input alufn[6],
+    output out[16],
+    output overflow
+  ) {
+  sig z[1];
+  sig voverflow[1];
+  sig v[1];
+  sig n[1];
+  adder add;
+  boolean bool;
+  compare comp;
+  shift shi;
+
+  always {
+  
+    out=0;
+
+    add.a=a;
+    add.b=b;
+    voverflow=add.v;
+    v=add.v;
+    n=add.n;
+    z=add.z;
+    add.alufn20=alufn[2:0];
+    overflow=add.v;
+    
+    bool.a=a;
+    bool.b=b;
+    bool.alufn30=alufn[3:0];
+    
+    comp.alufn21=alufn[2:1];
+    comp.v=v;
+    comp.z=z;
+    comp.n=n;
+    
+    shi.a=a;
+    shi.b=b[3:0];
+    shi.alufn10=alufn[1:0];
+    
+    
+    case(alufn[5:4]){
+      2b00:
+        out=add.out;
+      2b01:
+        out=bool.out;
+      2b10:
+        out=shi.out;
+      2b11:
+        out=comp.out;
+      }
+    
+  }
+}

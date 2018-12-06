@@ -1,0 +1,67 @@
+module adder (
+    input alufn20[3],
+    input a[16],
+    input b[16],
+    output out[16],
+    output n,
+    output z,
+    output v
+  ) {
+  sig xb[16];
+  sig temp[16];
+  sig x[16];
+
+  addition add;
+
+  always {
+    add.alufn0=0;
+    add.b=0;
+    add.a=0;
+    xb=16b0;
+    z=0;
+    v=0;
+    v=0;
+    n=0;
+    
+    case(alufn20){
+      b000://addition
+        add.alufn0=alufn20[0];
+        add.a=a;
+        add.b=b;
+        temp=add.sum;
+        //n=temp[15];
+        //v=(a[15]&b[15]&(~temp[15]))|((~a[15])&(~b[15])&temp[15]);
+        //z=~|temp;
+      b001://subtraction
+        
+        xb=b^16x{alufn20[0]};
+        add.alufn0=alufn20[0];
+        add.a=a;
+        add.b=xb;
+        temp[15:0]=add.sum[15:0];
+        //n=sum[15];
+        //v=(a[15]&(xb[15])&(~sum[15]))|(~a[15]&~xb[15]&sum[15]);
+        //z=~|temp;
+      b010://multiplication
+        temp[15:0]=a*b;
+        
+      b011://division
+        temp[15:0]=a/b;
+      b111://modulo
+        temp[15:0]=a-(a/b*b);
+      default:
+        temp=a+b;
+      
+    }
+    
+    x=a-b;
+    n=temp[15];
+    v=(a[15]&b[15]&(~temp[15]))|((~a[15])&(~b[15])&temp[15]);
+    z=~|x;
+    out[15:0]=temp[15:0];
+    //v=(a[15]&b[15]&(~x[15]))|((~a[15])&(~b[15])&x[15]);
+    
+    
+  }
+}
+

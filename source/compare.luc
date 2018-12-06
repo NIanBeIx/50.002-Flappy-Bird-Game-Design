@@ -1,0 +1,25 @@
+module compare (
+    input alufn21[2],
+    input z,
+    input v,
+    input n,
+    output out[16]
+  ) {
+
+  always {
+    case(alufn21){
+      b01://equal
+        out[0]=z;
+      b10://a>b 
+        out[0]=n^v;
+      b11://a>=b 
+        out[0]=z|(n^v);
+      default:
+        out[0] = z;
+    }
+    
+    out[15:1]=15b0;
+    
+
+  }
+}

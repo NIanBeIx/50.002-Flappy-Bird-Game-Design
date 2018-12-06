@@ -1,0 +1,56 @@
+module patternScreenSecond (
+    input clk,  // clock
+    input rst,  // reset
+    input clk2,
+    input rst2,
+    input button,
+    output out,
+    output outred[8][8],
+    output outblue[8][8],
+    output outgreen[8][8]
+  ) {
+  
+
+  pillarShift p;
+
+  always {
+  
+
+    
+    p.clk=clk2;
+    p.rst=rst2;
+    p.btn=button;
+    
+    
+    out = 0;
+    outred = {
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000};
+      
+    outblue = {
+      p.out15,
+      p.out14,
+      p.out13,
+      p.out12,
+      p.out11,
+      p.out10,
+      p.out9,
+      p.out8};
+      
+    outgreen = {
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000,
+      b00000000};
+}}
+

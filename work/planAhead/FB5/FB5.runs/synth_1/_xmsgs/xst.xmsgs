@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 62: Assignment to <arg fmt="%s" index="1">M_displayb_c_red</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 64: Assignment to <arg fmt="%s" index="1">M_displayb_c_green</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/alu_3.v" Line 77: Assignment to <arg fmt="%s" index="1">voverflow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 77: Assignment to <arg fmt="%s" index="1">M_alu_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 78: Assignment to <arg fmt="%s" index="1">M_alu_overflow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" Line 29: Assignment to <arg fmt="%s" index="1">M_alu_overflow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v" Line 40: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 106: Assignment to <arg fmt="%s" index="1">M_edge_detector_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 26: Assignment to <arg fmt="%s" index="1">M_alu_overflow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 38: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 39: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 41: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v" Line 42: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 63: Assignment to <arg fmt="%s" index="1">M_p_out8</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 64: Assignment to <arg fmt="%s" index="1">M_p_out9</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 65: Assignment to <arg fmt="%s" index="1">M_p_out10</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 66: Assignment to <arg fmt="%s" index="1">M_p_out11</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 67: Assignment to <arg fmt="%s" index="1">M_p_out12</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 68: Assignment to <arg fmt="%s" index="1">M_p_out13</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 69: Assignment to <arg fmt="%s" index="1">M_p_out14</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v" Line 70: Assignment to <arg fmt="%s" index="1">M_p_out15</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 140: Assignment to <arg fmt="%s" index="1">M_displayedPattern_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 44: Assignment to <arg fmt="%s" index="1">M_p_out0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 45: Assignment to <arg fmt="%s" index="1">M_p_out1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 46: Assignment to <arg fmt="%s" index="1">M_p_out2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 47: Assignment to <arg fmt="%s" index="1">M_p_out3</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 48: Assignment to <arg fmt="%s" index="1">M_p_out4</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 49: Assignment to <arg fmt="%s" index="1">M_p_out5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 50: Assignment to <arg fmt="%s" index="1">M_p_out6</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v" Line 51: Assignment to <arg fmt="%s" index="1">M_p_out7</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 157: Assignment to <arg fmt="%s" index="1">M_displayedPatternSecond_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%d" index="2">73</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu_3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mojo_top_0</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%d" index="2">103</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">edge_detector</arg>&gt; of block &lt;<arg fmt="%s" index="4">edge_detector_6</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mojo_top_0</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%d" index="2">113</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ctr</arg>&gt; of block &lt;<arg fmt="%s" index="4">counter_7</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mojo_top_0</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">56</arg>: Output port &lt;<arg fmt="%s" index="3">c_red</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">displayb</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">56</arg>: Output port &lt;<arg fmt="%s" index="3">c_green</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">displayb</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">73</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">73</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">103</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">edge_detector</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">134</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">displayedPattern</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">151</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">displayedPatternSecond</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/checkOut_4.v</arg>&quot; line <arg fmt="%s" index="2">24</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out8</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out9</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out11</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out12</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out13</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out14</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/pattern_9.v</arg>&quot; line <arg fmt="%s" index="2">51</arg>: Output port &lt;<arg fmt="%s" index="3">out15</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/birdPosition_17.v</arg>&quot; line <arg fmt="%s" index="2">21</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">btn</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/LETONG WEI/Desktop/SM2 document/ISTD/50.002/FB5/work/planAhead/FB5/FB5.srcs/sources_1/imports/verilog/patternScreenSecond_10.v</arg>&quot; line <arg fmt="%s" index="2">40</arg>: Output port &lt;<arg fmt="%s" index="3">out7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line7_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line6_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line5_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line4_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line3_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line2_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line1_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_line0_q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">alu/add/add</arg>&gt; of block &lt;<arg fmt="%s" index="2">addition_20</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">birdPosition_17</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">alu/add/a[15]_b[15]_div_3</arg>&gt; of block &lt;<arg fmt="%s" index="2">div_16u_16u</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">birdPosition_17</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">alu/add/Maddsub_n0033</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">birdPosition_17</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">alu/add/add</arg>&gt; of block &lt;<arg fmt="%s" index="2">addition_20</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">checkOut_4</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">alu/add/a[15]_b[15]_div_3</arg>&gt; of block &lt;<arg fmt="%s" index="2">div_16u_16u</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">checkOut_4</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">alu/add/Maddsub_n0033</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">checkOut_4</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd128</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd128&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd127-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd127-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd127-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd127</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd127&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd126-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd126-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd126-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd126</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd126&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd125-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd125-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd125-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd125</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd125&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd124-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd124-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd124-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd124</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd124&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd123-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd123-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd123-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd123</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd123&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd122-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd122-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd122-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd122</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd122&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd121-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd121-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd121-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd121</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd121&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd120-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd120-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd120-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd120</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd120&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd119-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd119-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd119-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd119</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd119&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd118-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd118-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd118-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd118</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd118&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd117-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd117-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd117-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd117</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd117&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd116-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd116-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd116-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd116</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd116&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd115-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd115-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd115-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd115</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd115&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd114-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd114-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd114-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd114</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd114&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd113-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd113-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd113-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd113</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd113&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd112-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd112-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd112-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd112</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd112&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd111-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd111-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd111-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd111</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd111&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd110-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd110-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd110-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd110</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd110&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd109-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd109-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd109-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd109</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd109&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd108-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd108-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd108-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd108</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd108&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd107-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd107-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd107-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd107</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd107&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd106-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd106-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd106-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd106</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd106&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd105-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd105-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd105-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd105</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd105&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd104-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd104-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd104-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd104</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd104&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd103-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd103-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd103-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd103</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd103&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd102-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd102-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd102-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd102</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd102&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd101-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd101-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd101-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd101</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd101&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd100-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd100-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd100&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd100</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd100</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd100</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd99</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd99&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd98-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd98-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd98-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd98</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd98&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd97-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd97-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd97-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd97</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd97&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd96-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd96-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd96-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd96</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd96&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd95-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd95-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd95-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd95</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd95&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd94-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd94-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd94-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd94</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd94&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd93-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd93-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd93-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd93</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd93&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd92-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd92-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd92</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd92&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd91-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd91-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd91-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd91</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd91&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd90-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd90-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd90-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd90</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd90&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd89-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd89-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd89-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd89</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd89&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd88-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd88-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd88-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd88</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd88&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd87-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd87-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd87-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd87</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd87&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd86-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd86-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd86-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd86</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd86&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd85-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd85-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd85-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd85</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd85&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd84-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd84-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd84-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd84</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd84&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd83-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd83-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd83-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd83</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd83&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd82-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd82-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd82-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd82</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd82&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd81-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd81-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd81-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd81</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd81&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd80-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd80-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd80-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd80</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd80&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd79-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd79-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd79-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd79</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd79&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd78-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd78-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd78-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd78</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd78&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd77-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd77-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd77-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd77</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd77&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd76-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd76-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd76-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd76</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd76&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd75-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd75-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd75-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd75</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd75&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd74-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd74-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd74-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd74</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd74&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd73-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd73-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd73-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd73</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd73&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd72-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd72-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd72-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd72</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd72&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd71-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd71-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd71-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd71</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd71&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd70-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd70-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd70-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd70</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd70&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd69-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd69-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd69-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd69</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd69&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd68-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd68-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd68-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd68</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd68&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd67-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd67-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd67-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd67</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd67&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd66-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd66-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd66-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd66</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd66&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd65-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd65-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd65-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd65</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd65&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd64-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd64-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd64-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd64</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd64&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd63-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd63-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd63-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd63</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd63&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd62-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd62-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd62-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd62</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd62&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd61-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd61-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd61-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd61</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd61&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd60-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd60-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd60-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd60</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd60&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd59-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd59-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd59-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd59</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd59&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd58-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd58-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd58-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd58</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd58&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd57-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd57-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd57-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd57</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd57&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd56-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd56-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd56-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd56</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd56&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd55-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd55-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd55-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd55</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd55&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd54-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd54-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd54-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd54</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd54&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd53-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd53-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd53-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd53</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd53&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd52-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd52-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd52-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd52</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd52&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd51-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd51-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd51-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd51</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd51&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd50-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd50-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd50-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd50</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd50&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd49-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd49-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd49-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd49</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd49&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd48-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd48-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd48-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd48</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd48&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd47-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd47-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd47-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd47</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd47&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd46-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd46-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd46-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd46</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd46&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd45-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd45-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd45-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd45</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd45&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd44-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd44-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd44-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd44</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd44&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd43-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd43-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd43-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd43</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd43&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd42-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd42-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd42-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd42</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd42&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd41-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd41-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd41-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd41</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd41&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd40-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd40-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd40-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd40</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd40&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd39-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd39-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd39-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd39</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd39&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd38-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd38-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd38-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd38</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd38&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd37-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd37-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd37-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd37</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd37&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd36-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd36-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd36-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd36</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd36&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd35-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd35-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd35-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd35</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd35&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd34-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd34-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd34-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd34</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd34&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd33-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd33-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd33-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd33</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd33&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd32-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd32-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd32-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd32&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd31-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd31-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd31-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd30-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd30-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd30-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd30&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd29-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd29-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd29-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd29&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd28-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd28-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd28-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd28&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd27-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd27-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd27-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd27&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd26-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd26-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd26-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd26&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd25-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd25-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd25-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd25&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd24-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd24-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd24-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd24&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd23-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd23-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd23-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd23&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd22-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd22-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd22-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd22&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd21-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd21-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd21-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd21&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd20-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd20-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd20-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd20&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd19-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd19-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd19-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd19&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18-In</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd18-In</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd18-In</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line15_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line15_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPattern/p/M_sudoRandom_q_FSM_FFd18&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">mojo_top_0</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">displayedPatternSecond/p/M_sudoRandom_q_FSM_FFd18</arg> and <arg fmt="%s" index="3">displayedPattern/p/M_sudoRandom_q_FSM_FFd18</arg> <arg fmt="%s" index="4">displayedPattern/p/M_sudoRandom_q_FSM_FFd18</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line14_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line14_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line13_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line13_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line12_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line12_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line11_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line11_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line10_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line10_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line9_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line9_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line8_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line8_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line15_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line15_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line15_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line15_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line14_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line14_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line14_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line14_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line13_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line13_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line13_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line13_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line12_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line12_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line12_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line12_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line11_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line11_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line11_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line11_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line10_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line10_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line10_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line10_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line9_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line9_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line9_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line9_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line8_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line8_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line8_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line8_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line15_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line15_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line15_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line15_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line14_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line14_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line14_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line14_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line13_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line13_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line13_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line13_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line12_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line12_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line12_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line12_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line11_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line11_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line11_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line11_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line10_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line10_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line10_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line10_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line9_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line9_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line9_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line9_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line8_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line8_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayedPattern/p/M_line8_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;displayedPatternSecond/p/M_line8_q_6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">M_halfSecond_q_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">displayb/counter_r/M_ctr_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/counter_r/M_ctr_q_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="new" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">slow_rst/M_last_q</arg> connected to a primary input has been replicated
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">4</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">reset_cond/M_stage_q_3</arg>&gt; and currently occupies <arg fmt="%d" index="3">4</arg> logic cells (<arg fmt="%d" index="4">2</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+</messages>
+

@@ -1,0 +1,188 @@
+module mojo_top (
+    input clk,              // 50MHz clock
+    input rst_n,            // reset button (active low)
+    output led [8],         // 8 user controllable LEDs
+    input buttonReset,
+    input buttonUser,
+    output row[8],
+    output c_red[8],
+    output c_blue[8],
+    output c_green[8],
+    output c_redb[8],
+    output rowb[8],
+    output redbug
+  ) {
+  
+  sig rst;                  // reset signal
+  sig gameOverSig;
+  sig restartSig;
+  
+
+  display display(.clk(clk),.rst(rst));
+  display displayb(.clk(clk),.rst(rst));
+  alu alu;
+  
+  
+  checkOut checking;
+  
+  .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    edge_detector edge_detector (#RISE(1), #FALL(0));
+    
+    
+    
+    ///////////////////////////////////////// fsm  ////////////////////////////////////////////
+    fsm playingmode(#INIT(START))={START,GAMEOVER};
+    
+    .rst(rst) {
+      counter ctr (#SIZE(1), #DIV(24));
+      dff second_clk[1];
+      dff halfSecond[32];
+
+      }
+    }
+  
+  ///////////////////////////////////new clk declaration///////////////////////////////////////////////
+  .clk(second_clk.q) {
+    edge_detector slow_rst(#RISE(1), #FALL(0));
+  }
+  
+  
+  
+  pattern displayedPattern(.clk(clk),.rst(rst),.rst2(slow_rst.out),.clk2(second_clk.q));
+  patternScreenSecond displayedPatternSecond(.clk(clk),.rst(rst),.rst2(slow_rst.out),.clk2(second_clk.q));
+  
+  
+  always {
+    reset_cond.in = ~rst_n; // input raw inverted reset signal
+    rst = reset_cond.out;   // conditioned reset
+    
+      
+    ////////////////// initialize ALU default /////////////////////////
+    alu.b=0;
+    alu.a=0;
+    alu.alufn=000000;
+    
+
+    
+    ///////////////////////////// initialize the outputs as 0 ///////////////////////
+    row=8b0;
+    c_red=8b0;
+    c_green=8b0;
+    c_blue=8b0;
+    rowb=8b0;
+    c_redb=8b0;
+    
+    gameOverSig=0;
+    restartSig=0;
+    
+    
+    ////////////////////////////// initialize the checking game over function /////////////////////////////
+    checking.rst=slow_rst.out;
+    checking.clk=second_clk.q;
+    checking.inb=00000001;
+    checking.inp=00000000;
+    
+    ////////////////////////////// initialize the output to screen ///////////////////////////////////////////
+    display.red = displayedPattern.outred;
+    display.blue = displayedPattern.outblue;
+    display.green = displayedPattern.outgreen;
+
+    displayb.red = displayedPatternSecond.outred;
+    displayb.blue = displayedPatternSecond.outblue;
+    displayb.green = displayedPatternSecond.outgreen;
+    
+    
+    /////////////////////////////////// declare reset signal ////////////////////////////////////////////////////
+    slow_rst.in = buttonReset;
+    
+
+    edge_detector.in = ctr.value;
+    displayedPattern.button=buttonUser;
+
+    
+    displayedPatternSecond.button=buttonUser;
+
+    /////////////////////////////////// for red led to switch off ///////////////////////////////
+    redbug=1;
+    
+    
+    
+    //////////////////////////////// state machine /////////////////////////////////////////////
+    case(playingmode.q){
+        
+      playingmode.START:
+        
+        display.red = displayedPattern.outred;
+        display.blue = displayedPattern.outblue;
+        display.green = displayedPattern.outgreen;
+        
+        displayb.red = displayedPatternSecond.outred;
+        displayb.blue = displayedPatternSecond.outblue;
+        displayb.green = displayedPatternSecond.outgreen;
+        
+        checking.rst=slow_rst.out;
+        checking.clk=second_clk.q;
+        checking.inp=displayedPattern.outblue[5];
+        checking.inb=displayedPattern.outred[5];
+        gameOverSig=checking.out;
+        
+      /////////////////////////determine whether the bird touches the pillars//////////////////////////
+
+       
+        //coordinate.d=0;
+        row = display.row;
+        c_red = display.c_red;
+        c_blue = display.c_blue; 
+        c_green = display.c_green;
+        
+        rowb=displayb.row;
+        c_redb=displayb.c_blue;
+        
+        
+        /////////////////////// check game over ///////////////////
+        if(gameOverSig==1){
+          playingmode.d=playingmode.GAMEOVER;
+          gameOverSig=0;
+          }
+      
+     
+        
+      playingmode.GAMEOVER:
+        
+      
+        if(buttonReset==1){
+          restartSig=1;
+          }
+        led=8b11111111;
+        row=8b11111111;
+        c_red=8b0;
+        c_green=8b0;
+        c_blue=8b0;
+        rowb=8b11111111;
+        c_redb=8b0;
+        if(restartSig==1){
+          
+          playingmode.d=playingmode.START;
+          restartSig=0;
+          gameOverSig=0;
+          }
+      }
+
+    
+    led = 8h00;             // turn LEDs off
+    
+    ///////////////////////////////////// for new clock control //////////////////////////////////////
+      
+      
+      halfSecond.d = halfSecond.q + 1;
+
+    
+      if (halfSecond.q == 15000000) {
+        halfSecond.d = 0;
+        second_clk.d = ~second_clk.q;
+      }
+  }
+}

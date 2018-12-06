@@ -1,0 +1,30 @@
+module boolean (
+    input alufn30[4],
+    input a[16],
+    input b[16],
+    output out[16]
+  ) {
+
+  var i;
+  always {
+    out=0;
+    if(alufn30==0100){//and
+      out=a&b;
+      }
+    if(alufn30==1110){//or
+      out=a^b;
+      }
+    if(alufn30==0001){//nor
+      out=~a^b;
+      }
+    if(alufn30==0111){//nand
+      out=~a&b;
+      }
+    if(alufn30==1010){
+      out=a;
+      }
+    //for(i=0;i<16;i++){
+    //out[i]=alufn30[c{b[i],a[i]}];
+    //}
+  }
+}

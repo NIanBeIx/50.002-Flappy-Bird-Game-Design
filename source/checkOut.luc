@@ -1,0 +1,30 @@
+module checkOut (
+    input clk,  // clock
+    input rst,  // reset
+    input inb[8],
+    input inp[8],
+    output out
+  ) {
+  sig s[16];
+  alu alu;
+  
+  always {
+  
+    //////////// checking collision with pillars
+    out=0;
+    s=inb&inp; 
+    if(s!=16b0000000000000000){
+      out=1;
+      }
+    
+    ////////////////////// declare alu inputs ////////////////////
+    /////////////////checking collision with boudaries
+    alu.a=inb;   // bird position (8 bit array)
+    alu.b=8b0;   // constant 0
+    alu.alufn=110011;  //// using CMPEQ
+    if(alu.out){
+      out=1;
+      }
+
+}
+}

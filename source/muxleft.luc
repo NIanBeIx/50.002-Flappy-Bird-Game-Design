@@ -1,0 +1,14 @@
+module muxleft (
+    input b[4],
+    input a[16],
+    output x[16]
+  ) {
+
+
+  always {
+  
+    x[15:0]=a[15:0]<<b;
+    
+    
+  }
+}
